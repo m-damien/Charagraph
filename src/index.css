@@ -1,0 +1,34 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.p-chip.blue {
+  background: var(--blue-200);
+}
+
+.p-chip.purple {
+  background: var(--purple-100);
+}
+
+.p-chip.yellow {
+  background: var(--yellow-200);
+}
+
+.textQuote {
+  background: white;
+  font-family: Times, serif;
+}

@@ -1,0 +1,49 @@
+.textLayer .number_annotation {
+    margin: -1px;
+    padding: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+.textLayer .number_annotation.appended {
+    position: initial;
+}
+
+.textLayer .number_annotation:hover {
+    background-color: rgba(180, 0, 170, 1);
+}
+
+.textLayer {
+    user-select: none;
+}
+
+.textLayer .number_annotation.clicked {
+    animation: fade 2s forwards;
+}
+
+@keyframes fade {
+    0% { background-color: rgba(244, 32, 32, 1) }
+    100% { background-color: rgba(0, 0, 0, .5) }
+}
+
+.textLayer .number_annotation.begin {
+    border-radius: 4px 0 0 4px;
+}
+
+.textLayer .number_annotation.end {
+    border-radius: 0 4px 4px 0;
+}
+
+.textLayer .number_annotation.middle {
+    border-radius: 0;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

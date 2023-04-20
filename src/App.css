@@ -1,0 +1,36 @@
+.p-panel-content {
+  padding: 0px !important;
+}
+
+.charagraphTitle {
+  cursor: grab;
+}
+
+.draggedCharagraph .charagraphTitle {
+  cursor: grabbing !important;
+}
+
+.charagraphTitleContainer .p-button {
+  padding: 2px 10px 2px 10px;
+}
+
+.charagraph {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.draggedCharagraph {
+  opacity: 0.9;
+  z-index: 999999 !important;
+  pointer-events: none;
+}
+
+.dropZone {
+  background: #aaaaaa50;
+  border: 4px dashed #808080;
+}
+
+.dropZone:hover {
+  cursor: copy;
+  background: #aaaaaa00;
+  border: 4px dashed #3087F7;
+}
