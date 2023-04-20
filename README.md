@@ -1,11 +1,11 @@
 # Charagraph PDF Viewer
 This repository contains the source code of a modified PDF Viewer that allows the creation of _Charagraphs_. Charagraphs are visualizations created from in-text numbers (see the [accompanying paper](https://hal.science/hal-04017629v1/file/Charagraph__CHI2023.pdf)). 
 
-## [> Try the PDF Viewer online <](http://)
+## [> Try the PDF Viewer online <](https://m-damien.github.io/Charagraph/home)
 
 
 ## Publication
-    Damien Masson, Sylvain Malacria, Géry Casiez, and Daniel Vogel. 2023. Charagraph: Interactive Generation of Charts for Realtime Annotation of Data-Rich Paragraphs. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 146, 1–18. 
+> Damien Masson, Sylvain Malacria, Géry Casiez, and Daniel Vogel. 2023. Charagraph: Interactive Generation of Charts for Realtime Annotation of Data-Rich Paragraphs. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 146, 1–18. 
 [![DOI](https://img.shields.io/badge/doi-10.1145/3544548.3581091-blue)]( https://doi.org/10.1145/3544548.3581091)
 
 ## How to build & run
