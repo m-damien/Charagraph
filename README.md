@@ -20,6 +20,8 @@ Then run the project:
 npm start
 ```
 
+Once the server is running, you can access the PDF viewer by browsing to http://localhost:3000/Charagraph (replacing 3000 by the port React is using).
+
 
 ## How to use
 ![](public/animations/create_charagraph.gif)
