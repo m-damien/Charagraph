@@ -897,13 +897,13 @@ export function loadViewer() {
       kind: OptionKind.WORKER
     },
     workerSrc: {
-      value: "libs/pdf.worker.js",
+      value: process.env.PUBLIC_URL + "/libs/pdf.worker.js",
       kind: OptionKind.WORKER
     }
   };
   {
     defaultOptions.defaultUrl = {
-      value: "3544548.3581091.pdf",
+      value: process.env.PUBLIC_URL + "/3544548.3581091.pdf",
       kind: OptionKind.VIEWER
     };
     defaultOptions.disablePreferences = {
